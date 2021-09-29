@@ -12,3 +12,7 @@ go：
 
 生产力：
 https://u.tools/
+
+
+iptables：
+iptables -t nat -A OUTPUT -d 100.66.255.180 -p tcp --dport 9092 -j DNAT --to 10.213.250.67:9092
